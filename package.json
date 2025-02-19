@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://wate835.github.io/photo-editor/",
+  "homepage": "https://github.com/Wate835/photo-editor/tree/gh-pages/",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
