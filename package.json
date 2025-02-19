@@ -8,8 +8,8 @@
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "predeploy": "rm -rf build && npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "del dist && npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@vueuse/core": "^11.1.0",
